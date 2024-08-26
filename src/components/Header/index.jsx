@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 
-import Logo from "@/public/images/logo.png";
+import Logo from "@/public/images/logo.svg";
 import Cart from "@/public/images/cart.svg";
 import User from "@/public/images/user.svg";
 
