@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.productDetails {
+  display: flex;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imageContainer {
+  flex: 1;
+  width: 571px;
+
+  display: flex;
+}
+
+.productInfo {
+  flex: 1;
+  padding: 0 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 735px;
+}
+
+.category {
+  color: #6B7280;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 10px 0 10px;
+}
+
+.name {
+  font-size: 24px;
+  max-width: 600px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.contentValues {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 48px;
+
+  background-color: #F9FAFB;
+  height: 230px;
+}
+
+.originalPrice {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 14px;
+
+  margin-top: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.currentPrice {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 48px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.discount {
+  color: #788A91;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+
+  .span{
+    color: #FF7600;
+  }
+}
+
+.buttonAddCart {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px 32px;
+  margin: 10px 0;
+
+  background-color: #FF7600;
+
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ff7700b5;
+  }
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .productDetails {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    max-width: 100%;
+  }
+
+  .productInfo {
+    padding: 20px;
+  }
+}
