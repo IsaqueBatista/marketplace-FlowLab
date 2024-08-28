@@ -1,40 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Marketplace Flow Lab Tech
 
-## Getting Started
+## Índice
 
-First, run the development server:
+- [Instalação](#instalação)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Contato](#contato)
+
+## Visão Geral
+Projeto de Marketplace desenvolvido com Next.js, React, e CSS Modules. Este projeto tem como objetivo fornecer uma plataforma completa para que vendedores possam listar seus produtos e compradores possam adquiri-los de forma fácil e segura.
+
+### Requisitos
+
+Antes de começar, certifique-se de que seu ambiente atenda aos seguintes requisitos:
+
+- Node.js v14 ou superior
+- npm v6 ou superior
+
+## Instalação
+
+Siga os passos abaixo para configurar o projeto localmente:
 
 ```bash
+# Clone o repositório
+git clone https://github.com/IsaqueBatista/marketplace-FlowLab.git
+
+# Navegue até o diretório do projeto
+cd marketplace-FlowLab/
+
+# Instale as dependências usando npm ou yarn
+npm install
+yarn
+
+# Rode o projeto com npm ou yarn
 npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
+- Next
+- React
+- CSS Modules
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Contato
+Para mais informações sobre este projeto ou para discutir futuras colaborações, sinta-se à vontade para entrar em contato:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Nome: Isaque Batista
+- Email: isaquebatista1716@gmail.com
+- LinkedIn: [linkedin.com/in/isaquebatista](https://www.linkedin.com/in/isaquebatista/)
+- GitHub: [github.com/IsaqueBatista](https://github.com/IsaqueBatista/)
+- Telefone: (34) 99222-5485
