@@ -1,0 +1,126 @@
+.container {
+    margin: 0 50px;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.searchBar_h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+}
+
+.filters {
+    background-color: #F9FAFB;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.productList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    list-style-type: none;
+}
+
+.cardProduct {
+    max-width: 290px;
+    cursor: pointer;
+}
+
+.category {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    margin: 5px 0;
+
+    color: #6B7280;
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    min-height: 56px;
+
+    color: #000000;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.valueInitial {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    margin: 5px 0;
+
+    color: #6B7280;
+    text-decoration-line: line-through;
+}
+
+.divValuesAndDescount {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+}
+
+.currentPrice {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.discount {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: #FF7600;
+}
+
+.buttonAddCart {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    padding: 12px 32px;
+    margin: 10px 0;
+
+    border: 1px solid #FF7600;
+    background-color: #FFFFFF;
+
+    color: #FF7600;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #FF7600;
+        color: #FFFFFF;
+
+    }
+}
