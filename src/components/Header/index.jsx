@@ -24,7 +24,7 @@ export default function Header() {
 
         <nav className={styles.navigation}>
           <div className={styles.navItem}>
-          <Link href="#" className={styles.navLink}>
+          <Link href="/cart" className={styles.navLink}>
             <Image src={Cart} 
             alt="Ícone do carrinho" 
             width={13} 
