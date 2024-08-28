@@ -65,7 +65,7 @@ export default function DetailsProduct() {
               no pix <span>{product.discount}%</span> de desconto
             </p>
           </div>
-          <Link href="/cart">
+          <Link href="/Cart">
             <button className={styles.buttonAddCart}>
               Adicionar ao carrinho
             </button>
